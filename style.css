@@ -22,7 +22,6 @@ html{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-
 }
 h2{
     color: white;
@@ -36,7 +35,7 @@ p{
 .card{
     background-color:white;
     border-radius: 10px;
-    height: 10rem;
+    height: 13rem;
     width: 70%;
     padding: 1em;
     margin-bottom: 1em ;
@@ -81,6 +80,7 @@ p{
     height: 50%;
 }
 .formulario form {opacity: 0.8;}
+
 #foto_e_texto{
     background-color: #cc9d8e;
     width: 100%;
@@ -104,6 +104,7 @@ p{
     box-shadow: 3px 3px 10px 8px hwb(12 38% 22%); 
     border-radius: 5px;
     margin:auto;
+
 }
 
 #foto_e_texto p {
@@ -131,7 +132,7 @@ p{
 #caixa {
     width: 50%;
     height: 80%;
-    background-color: #cf5d38;
+    background-color: hwb(12 38% 22%);
     border-radius: 25px;
     font-size: 16px;
     color: white;
@@ -182,6 +183,12 @@ p{
     margin-top: 0px;
 }
 
+.container h2{
+font-size: 1.3em;
+padding-top: 10px;
+padding-bottom: ;
+}
+
 .roda_pe {
     width: 100%;
     height: 50%;
@@ -214,10 +221,14 @@ a:visited {
     padding: 20px;
 }
 .Quem_somos img {
-    width: 50%;
-    height: 50%;
+    width: 90%;
+    height: 90%;
     align-items: center;
 }
 .Quem_somos h2 {
     text-align-last: center;
+}
+.Quem_somos p { 
+    color: white;
+    text-align: justify;
 }
