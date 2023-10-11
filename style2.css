@@ -1,7 +1,7 @@
 /* Style the navigation menu */
 .topnav {
     overflow: hidden;
-    background-color: #cc9d8e;
+    background-color: #B98E80;
     opacity: 0.8;
     position: relative;
   }
@@ -23,7 +23,7 @@
   
   /* Style the hamburger menu */
   .topnav a.icon {
-    background:#cc9d8e;
+    background:#B98E80;
     display: block;
     position: absolute;
     right: 0;
