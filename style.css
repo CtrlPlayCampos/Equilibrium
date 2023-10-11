@@ -24,7 +24,7 @@ h4 {
     color:white;
     text-align: center;
     font-size: 1.1em;
-    font-family:cursive;
+    font-family: 'Lucida Calligraphy Itálico';
     margin: 10px;
 
 }
@@ -136,7 +136,7 @@ p{
     
 }
 .depoimentos{
-    background-image: url(Design\ sem\ nome\ \(3\).png)
+    background-image: url(pink-324175_1280.jpg)
 }
 #beneficios {
     width: 100%;
