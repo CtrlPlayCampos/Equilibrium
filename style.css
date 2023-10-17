@@ -6,6 +6,28 @@ h1{
     margin: 2rem 1rem;
     font-weight: bold;
 }
+
+h2{
+    color: white;
+    text-align: center;
+    font-size: 1em;
+    
+}
+
+h3{
+    color: white;
+    text-align: center;
+    font-size: 4em;
+}
+
+h4 {
+    color:white;
+    text-align: center;
+    font-size: 1.1em;
+    font-family: 'Lucida Calligraphy Itálico';
+    margin: 10px;
+
+}
 .parágrafo_inicial{
     font-size: 1em;
     color: white;
@@ -16,18 +38,14 @@ h1{
 html{
     font-family: Arial, Helvetica, sans-serif;
 }
-.destaque {color: #ffff00;}
+
 .box-cards{
     display:flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
 }
-h2{
-    color: white;
-    text-align: center;
-    font-size: 1em;
-}
+
 p{
     font-size: 1em;
     text-align: center;
@@ -42,7 +60,7 @@ p{
 }
 
 .card-dep{
-    background-color: #ca7e65;
+    background-color: #cc9d8e;
     height: 80%;
     width: 60%;
     margin-top: 5%;
@@ -60,20 +78,17 @@ p{
 }
 
 .video {
-    height: 50%;
-    width: 50%;
-    margin-top: 5%;
-    margin-left: 25%;
-    margin-right: 25%;
-    margin-bottom: 5%;
+    width: 80%;
+    height: 80%;
 }
 
 .tamanho_size{
     width: 100%;
+    height: 70%;
     background-image: url("luzes.png");
 }
 .formulario h1 {font-size: 20px;
-                    color:brown}
+                    color:brown;}
 .formulario {
     background-image: url("fundo.jpg");
     width: 100%;
@@ -85,7 +100,7 @@ p{
     background-color: #cc9d8e;
     width: 100%;
     margin:auto;
-    padding-top: 20px;
+    padding-top: 5px;
     padding-left: 20px;
     padding-right: 20px;
     padding-bottom: 5%;
@@ -94,13 +109,13 @@ p{
     padding-bottom: 20px;
     color: aliceblue;
     font-size: 30px;
-    font-family: Sans-serif;
+    font-family: 'freestyle script';
 
     
 }
 #foto_e_texto img {
-    width: 70%;
-    height: 70%;
+    width: 90%;
+    height: 90%;
     box-shadow: 3px 3px 10px 8px hwb(12 38% 22%); 
     border-radius: 5px;
     margin:auto;
@@ -121,7 +136,7 @@ p{
     
 }
 .depoimentos{
-    background-image: url(Design\ sem\ nome\ \(3\).png)
+    background-image: url(pink-324175_1280.jpg)
 }
 #beneficios {
     width: 100%;
@@ -130,9 +145,9 @@ p{
 }
 
 #caixa {
-    width: 50%;
+    width: 85%;
     height: 80%;
-    background-color: hwb(12 38% 22%);
+    background-color: #ca7e65;
     border-radius: 25px;
     font-size: 16px;
     color: white;
@@ -142,15 +157,40 @@ p{
     padding-bottom: 10px;
     margin-bottom: 30px;
 }
+
+
+
 .caixa_texto {
     background-color:#cc9d8e;
     border: 1px solid white;
     border-radius: 20px;
     box-shadow: 3px 3px 10px 8px hwb(12 38% 22%);
     padding: 5px;
-    margin-top: 15%;
+    margin-top: 5%;
+    margin-bottom: 5%;
 
 }  
+
+.caixa_texto_2 {
+    background-color:#ca7e65;
+    border: 2px solid white;
+    border-radius: 20px;
+    box-shadow: 3px 3px 10px 8px hwb(12 38% 22%);
+    padding: 5px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+
+}  
+
+.caixa_texto_2 p{
+    color: white;
+}
+
+.caixa_texto_2 h2{
+    color: white;
+}
+
+
 
 #equilibrium {
     padding-top: 10%;
@@ -224,6 +264,10 @@ a:visited {
     width: 90%;
     height: 90%;
     align-items: center;
+    box-shadow: 3px 3px 10px 8px hwb(12 38% 22%); 
+    border-radius: 5px;
+    margin:auto;
+
 }
 .Quem_somos h2 {
     text-align-last: center;
@@ -232,3 +276,5 @@ a:visited {
     color: white;
     text-align: justify;
 }
+
+
