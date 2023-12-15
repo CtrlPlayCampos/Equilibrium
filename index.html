@@ -287,22 +287,22 @@
 
       <h1> Se interessou? Deixe aqui o seu contato que retoremos em breve!</h1>
 
-      <form class="form-control" method="post" action="mailto:atendimento.campos@ctrlplay.com.br">
+      <form class="form-control" method="post" onsubmit="abrirWhatsapp()">
         <div class="input-group input-group-lg">
           <span class="input-group-text" id="inputGroup-sizing-lg">Nome:</span>
-          <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-lg">
+          <input type="text" name="nome" id="nome" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-lg">
         </div>
         <br>
         
         <div class="input-group input-group-lg">
           <span class="input-group-text" id="inputGroup-sizing-lg">Celular:</span>
-          <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-lg">
+          <input type="text" name="celular" id="celular" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-lg">
         </div>
         <br>
 
         <div class="input-group input-group-lg">
           <span class="input-group-text" id="inputGroup-sizing-lg">E-mail:</span>
-          <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-lg">
+          <input type="text" name="email" id="email" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-lg">
         </div>
         <br>
 
@@ -331,7 +331,25 @@
     
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.7/dist/umd/popper.min.js" integrity="sha384-zYPOMqeu1DAVkHiLqWBUTcbYfZ8osu1Nd6Z89ify25QV9guujx43ITvfi12/QExE" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.min.js" integrity="sha384-Y4oOpwW3duJdCWv5ly8SCFYWqFDsfob/3GkgExXKV4idmbt98QcxXYs9UoXAB7BZ" crossorigin="anonymous"></script>
-    <script>
+   
+  <script>
+    function abrirWhatsapp() {
+      var nome = document.getElementById("nome").value;
+      var celular = document.getElementById("celular").value;
+      var email = document.getElementById("email").value;
+     
+      var url = "https://wa.me/5522997106700?text=" // Seu numero
+        + "*Formulário de Contato*" + "%0a" // Mensagem personalizada
+        + "%0a" // Quebra de linha
+        + "*Nome*: " + nome + "%0a" // Dados do formulário
+        + "*Celular*: " + celular + "%0a"
+        + "*E-mail*: " + email + "%0a"
+    
+      window.open(url, '_blank').focus();
+    }
+  </script>
+              
+<script>
       function myFunction() {
   var x = document.getElementById("myLinks");
   if (x.style.display === "block") {
