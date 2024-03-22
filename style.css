@@ -145,7 +145,7 @@ p{
 }
 
 #caixa {
-    width: 85%;
+    width: 65%;
     height: 80%;
     background-color: #ca7e65;
     border-radius: 25px;
@@ -276,5 +276,7 @@ a:visited {
     color: white;
     text-align: justify;
 }
+
+
 
 
